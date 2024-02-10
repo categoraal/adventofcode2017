@@ -1,7 +1,4 @@
 A,B = [int(i.split()[-1]) for i in open('in15').read().strip().split('\n')]
-print(A,B)
-# af = 16807;bf = 48271
-# p = 2147483647
 
 def ga(x):return (x*16807)%2147483647
 def gb(x):return (x*48271)%2147483647
@@ -28,5 +25,3 @@ while i < 5e6:
         cnt += 1
     i+=1
 print(cnt)
-
-#too low 297
